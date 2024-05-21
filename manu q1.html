@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manuQ1</title>
+</head>
+<body>
+    <script>
+        let student=["manu","sujin","rahul","vishnu","midhun","anandu"]
+        document.write("Question 1<br><br>List:",student);
+        document.write("<br>Sorted array List:",student.sort());
+        document.write("<br>Reversed array List:",student.reverse());
+        document.write("<br><br>Checking(searching) element  is in the array :",student.includes("manu"))
+
+        let x="Hello World"
+        let y="hEllO World"
+        let a=x==y
+        let b=x===y
+
+        document.write(`<br><br>Question 3<br>x=Hello World<br>y=hEllO World<br>  x==y is:`,a)
+        document.write(`<br>x===y is:`,b)
+        document.write("<br>Type of x==y is:",typeof(a))
+        document.write("<br>Type ofx===y is:",typeof(b))
+
+        let m=23
+        n=m+10
+        document.write("<br><br>Question 4<br>m=23")
+        document.write(`<br>I am ${m} yrs of old and my brother is 10 yrs older to me. He is now ${n}  years old.`)
+        
+        document.write("<br><br>Question 5")
+        {
+            let a="My name is "
+            let fname="manu"
+            let lname="narayanan"
+            let b=" .I live in "
+            let c="kasaragod"
+            z=a+fname.toUpperCase()+lname.toUpperCase()+b+c.toUpperCase()
+            document.write("<br>String using toUpperCase():",z)
+        }
+
+
+        {
+        document.write("<br><br>Question 6")
+        let p="script.js"
+        q=p.slice(0,-3);
+        document.write("<br>Value of p=",p)
+        document.write("<br>Value of q=",q)
+
+        }
+
+
+        {
+        document.write("<br><br>Question 7<br>Multiply two numbers")
+        function mul(x,y){
+            z=x*y
+            document.write(`<br>Result of ${x}*${y} is: `,z)
+        }
+            let a=5
+            let b=10
+
+            mul(a,b);
+        }
+
+
+        {
+            document.write("<br><br>Question 8<br>Multiply three numbers");
+            function multi(x,y,z){
+            m=x*y*z
+            document.write(`<br>Result of ${x}*${y}*${z} is: `,m)
+        }
+            let a=5
+            let b=10
+            let c=2
+            multi(a,b,c);
+        }
+
+
+
+        {
+            document.write("<br><br>Question 9<br>Find 2*(20+30)");
+            function add(x,y){
+            m=x+y
+            return m;
+            
+        }
+            let a=20
+            let b=30
+            add (a,b);
+            z=2*m
+            document.write(`<br>Result of m*2 is: `,z)
+
+           
+        }
+    </script>
+</body>
+</html>
